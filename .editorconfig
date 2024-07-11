@@ -1,0 +1,15 @@
+# https://editorconfig.org
+
+root = true
+
+[*] # 表示所有文件适用
+charset = utf-8
+indent_style = space
+indent_size = 2
+end_of_line = lf # 控制换行类型
+insert_final_newline = true
+trim_trailing_whitespace = true # 去除行尾任意空白字符
+
+[*.md]
+insert_final_newline = false
+trim_trailing_whitespace = false
